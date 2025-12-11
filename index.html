@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Makalah - 7 Kelompok</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  
+  <script>
+    function openPDF(file) {
+      window.open(file, "_blank"); 
+    }
+  </script>
+
+  <style>
+    header {
+      background-color: #F0E491;
+      color: green;
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 font-sans min-h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <header class="p-4 sm:p-6 text-center text-xl sm:text-2xl font-bold flex flex-col items-center">
+    <img src="logo.png" alt="Logo" class="w-16 sm:w-20 mb-2 sm:mb-3">
+    Website Presentasi Makalah
+  </header>
+
+  <!-- MENU -->
+  <nav class="p-4 sm:p-6 max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 flex-grow">
+
+    <div onclick="openPDF('kelompok1.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 1
+    </div>
+
+    <div onclick="openPDF('kelompok2.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 2
+    </div>
+
+    <div onclick="openPDF('kelompok3.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 3
+    </div>
+
+    <div onclick="openPDF('kelompok4.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 4
+    </div>
+
+    <div onclick="openPDF('kelompok5.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 5
+    </div>
+
+    <div onclick="window.open('https://drive.google.com/file/d/1Xv-92bavZbaeCps_xx5yZfulzGBmxxLq/view?usp=sharing', '_blank')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 6
+    </div>
+
+    <div onclick="openPDF('kelompok7.pdf')" 
+         class="cursor-pointer bg-white shadow-lg rounded-xl p-5 sm:p-6 text-center font-semibold hover:shadow-2xl hover:bg-blue-50 transition">
+      Kelompok 7
+    </div>
+
+  </nav>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 text-white text-center p-3 sm:p-4 mt-auto text-sm sm:text-base">
+    &copy; 2025 - Website Makalah
+  </footer>
+
+</body>
+</html>
